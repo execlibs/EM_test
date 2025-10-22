@@ -1,0 +1,8 @@
+[Unit]
+Description=Monitoring Script for Test Process
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/monitor.sh
+User=root
